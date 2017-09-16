@@ -1,0 +1,55 @@
+{
+	"scoreArea": [
+		{
+			"area0": [
+				{
+				"tip": "You are at a greater risk of cardiovascular diseases and diabetes. Try to change to healthier habits"
+				},
+				{
+				"tip": "Sugar is as addictive as a drug and are the biggest cause of obesity. Your diet contains a lot of sugar and you should really try to reduce your sugar intake"
+				}
+			]
+		},
+		{
+			"area1": [
+				{
+				
+				"tip": "Your eating habits are okay, with some exercise and a little healthier food choices you could get a lot more energy in your day to day life"
+				},
+				{
+				"tip": "Eating healthy isn't easy but you are a fighter that wants a change!"
+				},
+				{
+				"tip": "Remember to eat your veggies"
+				}
+			]
+		},
+		{
+			"area2": [
+				{
+				"tip": "Your eating habits are good but you can take it to the next level!"
+				},
+				{
+				"tip": "You need many different nutritions, try to vary your food"
+				}
+			]
+		},
+		{
+			"area3": [
+				{
+				"tip": "Your score is really high, great job! Now the hard part begins, staying there; or even get an even higher score"
+				},
+				{
+				"tip": "If everyone had your habits then obesity would be a thing of the past!"
+				}
+			]
+		},
+		{
+			"area4": [
+				{
+				"tip": "You've beaten the game! Go eat a hamburger, you deserve it"
+				}
+			]
+		}
+	]
+}
