@@ -180,10 +180,11 @@ public class PictureActivity extends AppCompatActivity {
             Intent i = new Intent(getApplicationContext(), ResponseActivity.class);
             i.putExtra("TheList", items.toArray());
             startActivity(i);
+
             for (String e: items) {
                 Log.v("item", e);
             }
-
+            finish();
         }
     }
 

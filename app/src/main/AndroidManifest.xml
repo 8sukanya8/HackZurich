@@ -28,7 +28,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".pictureActivity" />
+        <activity android:name=".PictureActivity" />
         <activity android:name=".ResponseActivity"></activity>
     </application>
 
