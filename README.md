@@ -11,11 +11,4 @@ It was difficult for us to find the right API for the project. Additionally, sen
 # Accomplishments we are proud of
 We have succesfully created a working prototype that does what we wanted it to do in merely 2 days. We are proud of the scoreboard that is intuitive and user-friendly. We also managed to combine our ideas with flying colours.
 
-![Main activity](/images/Screenshot_20170917-081643.png)
-
-![Overall score](/images/Screenshot_20170917-081638.png)
-![Take a photo](/images/Screenshot_20170917-081647.png)
-
-
-![picture taken](/images/Screenshot_20170917-081657.png)
-![the meal's score](/images/Screenshot_20170917-081713.png)
+![Main activity](/images/HackHealth-2(1).png)
