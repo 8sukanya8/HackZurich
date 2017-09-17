@@ -40,7 +40,7 @@ import static com.google.api.services.vision.v1.Vision.*;
  * Created by fhiden on 2017-09-16.
  */
 
-public class VisionHelper {
+/*public class VisionHelper {
     Vision.Builder visionBuilder;
     public VisionHelper(){
         visionBuilder = new Vision.Builder(
@@ -131,9 +131,12 @@ public class VisionHelper {
         protected void onPostExecute(List<String> items) {
             super.onPostExecute(items);
 
-            Intent i = new Intent(context, ResponseActivity.class);
-            i.putExtra("TheList", items.toArray());
+           Intent i = new Intent(context.getApplicationContext(), ResponseActivity.class);
+           i.putExtra("TheList", items.toArray());
+            for (String e: items) {
+                Log.v("item", e);
+            }
 
         }
     }
-}
+}*/
