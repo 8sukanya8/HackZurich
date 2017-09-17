@@ -178,7 +178,9 @@ public class PictureActivity extends AppCompatActivity {
             super.onPostExecute(items);
 
             Intent i = new Intent(getApplicationContext(), ResponseActivity.class);
-            i.putExtra("TheList", items.toArray());
+            String[] itemList = items.toArray(new String[items.size()]);
+            i.putExtra("TheList", itemList);
+
             startActivity(i);
 
             for (String e: items) {

@@ -24,8 +24,10 @@ public class adviceActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_advice);
 
-        perceivedHealthiness = getIntent().getExtras().getInt("healthScore");
         theTip = (TextView) findViewById(R.id.tipBox);
+
+        SQLHelper helper = SQLHelper.getInstance(this);
+        perceivedHealthiness = helper.getTotalScore(this);
 
         final FitChart fitChart = (FitChart)findViewById(R.id.fitChart);
 

@@ -18,8 +18,7 @@ public class MainActivity extends AppCompatActivity {
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
-        number = (EditText) findViewById(R.id.numberText);
-        final Button go = (Button) findViewById(R.id.goButton);
+        final Button go = (Button) findViewById(R.id.Statistics);
         final Button pic = (Button) findViewById(R.id.picButton);
         pic.setOnClickListener(new onpicyclickiness());
 
@@ -30,7 +29,6 @@ public class MainActivity extends AppCompatActivity {
         @Override
         public void onClick(View view) {
             Intent i = new Intent( getApplicationContext(), adviceActivity.class);
-            i.putExtra("healthScore", Integer.parseInt(number.getText().toString()));
             startActivity(i);
 
         }

@@ -18,43 +18,32 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
 
-        <LinearLayout
-            android:orientation="vertical"
+        <RelativeLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content">
+            android:layout_height="match_parent"
+            android:gravity="bottom">
 
-            <EditText
+            <LinearLayout
+                android:orientation="horizontal"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:inputType="number"
-                android:ems="10"
-                android:layout_marginTop="92dp"
-                android:id="@+id/numberText"
-                android:layout_alignParentTop="true"
-                android:layout_centerHorizontal="true" />
+                android:layout_height="wrap_content">
 
-        </LinearLayout>
+                <Button
+                    android:text="Statistics "
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/Statistics"
+                    android:layout_weight="1" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent">
+                <Button
+                    android:text="take picture"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/picButton"
+                    android:layout_weight="1" />
+            </LinearLayout>
 
-            <Button
-                android:text="go "
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/goButton"
-                android:layout_weight="1" />
-
-            <Button
-                android:text="take picture"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:id="@+id/picButton"
-                android:layout_weight="1" />
-        </LinearLayout>
-
+        </RelativeLayout>
     </LinearLayout>
 
 </RelativeLayout>
