@@ -29,14 +29,21 @@
                 android:layout_height="wrap_content">
 
                 <Button
-                    android:text="Statistics "
+                    android:text="Check Meal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/checkbutton"
+                    android:layout_weight="1" />
+
+                <Button
+                    android:text="History"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/Statistics"
                     android:layout_weight="1" />
 
                 <Button
-                    android:text="take picture"
+                    android:text="Enter meal"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:id="@+id/picButton"
