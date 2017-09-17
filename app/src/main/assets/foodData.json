@@ -75,6 +75,62 @@
     {
       "label": "macchiato",
       "score": 60
+    },
+        {
+      "label": "popcorn",
+      "score": 20
+    },
+    {
+      "label": "banana",
+      "score": 90
+    },
+    {
+      "label": "cheeese",
+      "score": 60
+    },
+    {
+      "label": "chocolate",
+      "score": 10
+    },
+    {
+      "label": "produce",
+      "score": 90
+    },
+    {
+      "label": "nuts",
+      "score": 100
+    },
+    {
+      "label": "lasagne",
+      "score": 70
+    },
+    {
+      "label": "pizza",
+      "score": 20
+    },
+    {
+      "label": "taco",
+      "score": 50
+    },
+    {
+      "label": "soft drink",
+      "score": 20
+    },
+    {
+      "label": "salad",
+      "score": 90
+    },
+    {
+      "label": "beef",
+      "score": 50
+    },
+    {
+      "label": "ice cream",
+      "score": 20
+    },
+    {
+      "label": "soup",
+      "score": 60
     }
   ]
 }
