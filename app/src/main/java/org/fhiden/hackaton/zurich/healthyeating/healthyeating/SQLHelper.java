@@ -79,7 +79,10 @@ public class SQLHelper {
             i++;
         }
         Log.v("total "+total, ""+i);
-        return total/i;
+        if (i>0)
+            return total/i;
+        else
+            return 0;
     }
 
     public void deleteItemsOlderthan30Days(final Context context) {
